@@ -1,0 +1,22 @@
+{
+  "total_queries": 6,
+  "cache_hits": 1,
+  "cache_misses": 5,
+  "cache_hit_rate": 16.7,
+  "original_tokens": 9,
+  "compressed_tokens": 10,
+  "slimmed_tokens": 27,
+  "total_saved_tokens": -16,
+  "overall_savings": -200.0,
+  "sessions": 1,
+  "elapsed_seconds": 0.0,
+  "queries_per_second": 708.58,
+  "generated_at": "2026-06-10 17:02:32",
+  "phase": "Phase 9",
+  "target_savings": "99%+",
+  "modules": {
+    "semantic_cache": "99%+ hit rate",
+    "input_compress": "15-25% savings",
+    "output_slim": "10-20% savings"
+  }
+}

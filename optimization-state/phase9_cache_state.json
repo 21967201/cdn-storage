@@ -1,0 +1,76 @@
+{
+  "total_hits": 1,
+  "total_misses": 5,
+  "total_hit_rate": 16.7,
+  "total_tokens_saved": 2,
+  "layers": {
+    "L0_Hash": {
+      "type": "L0_Hash",
+      "hits": 1,
+      "misses": 5,
+      "hit_rate": 16.7,
+      "size": 5,
+      "tokens_stored": 9
+    },
+    "L1_Fingerprint": {
+      "type": "L1_Fingerprint",
+      "hits": 0,
+      "misses": 5,
+      "hit_rate": 0.0,
+      "size": 5,
+      "build_attempts": 5,
+      "tokens_stored": 9
+    },
+    "L2_Template": {
+      "type": "L2_Template",
+      "hits": 0,
+      "misses": 5,
+      "hit_rate": 0.0,
+      "templates": 5,
+      "total_variants": 5,
+      "tokens_stored": 9
+    },
+    "L3_Predict": {
+      "type": "L3_Predict",
+      "hits": 0,
+      "misses": 0,
+      "hit_rate": 0,
+      "predictions_loaded": 5,
+      "prediction_accuracy": 100.0,
+      "ngram_states": 114,
+      "tokens_stored": 9
+    },
+    "L4_Distill": {
+      "type": "L4_Distill",
+      "hits": 0,
+      "misses": 5,
+      "hit_rate": 0.0,
+      "patterns": 5,
+      "total_frequency": 5,
+      "top_patterns": [
+        [
+          "intent=how|pattern=网销宝日限额怎么设置",
+          1
+        ],
+        [
+          "intent=how|pattern=怎么提高网销宝转化率",
+          1
+        ],
+        [
+          "intent=how|pattern=如何提高网销宝的转化率",
+          1
+        ],
+        [
+          "intent=how|pattern=网销宝的转化率怎么优化",
+          1
+        ],
+        [
+          "intent=unknown|pattern=网销宝出价策略",
+          1
+        ]
+      ]
+    }
+  },
+  "saved_at": 1781082152.4761338,
+  "saved_at_iso": "2026-06-10 17:02:32"
+}
